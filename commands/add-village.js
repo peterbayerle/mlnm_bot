@@ -20,7 +20,7 @@ module.exports = {
       }
       villages[world]['villages'].push(args.slice(0, 3));
       fs.writeFileSync(villageModelPath, JSON.stringify(villages, null, 2));
-      msg.channel.send(`New ${world} village added at (${args.slice(0,3)}) 🏘`);
+      msg.channel.send(`New ${world} village added at (${args.slice(0,3)})`);
     }
   }
 };

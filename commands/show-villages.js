@@ -23,7 +23,7 @@ module.exports = {
     var villagesString = fs.readFileSync(villageModelPath, 'utf8');
     var villages = JSON.parse(villagesString);
 
-    var text = 'Currently logged villages 🏘\n';
+    var text = 'Currently logged villages\n';
     text += 'Overworld villages:';
     text += villageStrRep(villages['overworld']['villages']);
 

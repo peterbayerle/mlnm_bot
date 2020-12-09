@@ -16,12 +16,6 @@
   },
   "end": {
     "description": "villages in the end",
-    "villages": [
-      [
-        "724",
-        "85",
-        "1354"
-      ]
-    ]
+    "villages": []
   }
 }
