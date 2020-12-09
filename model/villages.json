@@ -1,0 +1,27 @@
+{
+  "overworld": {
+    "description": "villages in the overworld",
+    "villages": [
+      [
+        "64",
+        "118",
+        "21"
+      ],
+      [
+        "-211",
+        "344",
+        "900"
+      ]
+    ]
+  },
+  "end": {
+    "description": "villages in the end",
+    "villages": [
+      [
+        "724",
+        "85",
+        "1354"
+      ]
+    ]
+  }
+}

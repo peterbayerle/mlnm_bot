@@ -23,7 +23,7 @@ client.on('message', msg => {
   	client.commands.get(cmd).execute(msg, args);
   } catch (err) {
   	console.error(err);
-  	msg.reply('there was an error trying to execute that command!');
+  	msg.reply(`Error: ${err}`);
   }
 });
 
