@@ -5,7 +5,7 @@ var isANumber = x => isNaN(x) === false;
 var distanceBetween = (x, y) => {
   var d = 0;
   for (var i=0; i<x.length; i++) {
-    d += (x[0]-y[0])**2;
+    d += (x[i]-y[i])**2;
   }
   return d**(1/2);
 };
